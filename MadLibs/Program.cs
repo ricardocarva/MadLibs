@@ -82,7 +82,13 @@ namespace MadLibs
             Console.Clear();
             // The template for the story:
 
-            string story = $"This morning {mainCharacterName} woke up feeling {adjective1.ToLower()}. \r\n\r\n'It is going to be a {adjective2.ToLower()} day!' Outside, a bunch of {animal.ToLower()}s were protesting to keep {food.ToLower()} in stores.\r\n\r\nThey began to {actionVerb.ToLower()} to the rhythm of the {firstNoun.ToLower()}, which made all the {fruit.ToLower()}s very {adjective3.ToLower()}.\r\n\r\nConcerned, {mainCharacterName} texted {superhero}, who flew {mainCharacterName} to {country} and dropped {mainCharacterName} in a puddle of frozen {dessert.ToLower()}.\r\n\r\n{mainCharacterName} woke up in the year {year}, in a world where {secondNoun.ToLower()}s ruled the world.";
+            string story = $"This morning {mainCharacterName} woke up feeling {adjective1.ToLower()}." +
+                $" \r\n\r\n'It is going to be a {adjective2.ToLower()} day!' Outside, a bunch of {animal.ToLower()}s" +
+                $" were protesting to keep {food.ToLower()} in stores.\r\n\r\nThey began to {actionVerb.ToLower()} " +
+                $"to the rhythm of the {firstNoun.ToLower()}, which made all the {fruit.ToLower()}s very {adjective3.ToLower()}." +
+                $"\r\n\r\nConcerned, {mainCharacterName} texted {superhero}, who flew {mainCharacterName} to {country} and dropped" +
+                $" {mainCharacterName} in a puddle of frozen {dessert.ToLower()}.\r\n\r\n{mainCharacterName} woke up in the " +
+                $"year {year}, in a world where {secondNoun.ToLower()}s ruled the world.";
 
             // Print the story:
             Console.WriteLine(story);
